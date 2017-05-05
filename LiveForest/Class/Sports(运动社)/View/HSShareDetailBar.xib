@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HSShareDetailBar">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ciM-Ml-w1R">
+                    <rect key="frame" x="20" y="24" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Zev-fQ-c6J"/>
+                        <constraint firstAttribute="width" constant="44" id="yOh-aE-Raw"/>
+                    </constraints>
+                    <state key="normal" image="btn_chevronleft_n"/>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cq-N8-T4X">
+                    <rect key="frame" x="311" y="24" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="jyc-W5-7jw"/>
+                        <constraint firstAttribute="height" constant="44" id="kQV-yF-19G"/>
+                    </constraints>
+                    <state key="normal" image="btn_comment(black)_n"/>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPM-2C-nae">
+                    <rect key="frame" x="203" y="24" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="Rn0-wM-fhd"/>
+                        <constraint firstAttribute="height" constant="44" id="UBN-h9-GQd"/>
+                    </constraints>
+                    <state key="normal" image="btn_person(black)_n"/>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Udp-vh-BAi">
+                    <rect key="frame" x="257" y="24" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="D8Z-1h-9sr"/>
+                        <constraint firstAttribute="width" constant="44" id="vKM-Dh-dhH"/>
+                    </constraints>
+                    <state key="normal" image="btn_like(black)_n"/>
+                    <state key="selected" image="btn_like(black)_h"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="7cq-N8-T4X" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="24" id="F0R-1N-xMq"/>
+                <constraint firstItem="Udp-vh-BAi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="24" id="Rah-PR-Z3v"/>
+                <constraint firstItem="7cq-N8-T4X" firstAttribute="leading" secondItem="Udp-vh-BAi" secondAttribute="trailing" constant="10" id="bRw-Uq-JFH"/>
+                <constraint firstItem="SPM-2C-nae" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="24" id="jnb-Cc-yGU"/>
+                <constraint firstAttribute="trailing" secondItem="7cq-N8-T4X" secondAttribute="trailing" constant="20" id="osf-Mc-VJd"/>
+                <constraint firstItem="ciM-Ml-w1R" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="24" id="pay-sK-Nua"/>
+                <constraint firstItem="Udp-vh-BAi" firstAttribute="leading" secondItem="SPM-2C-nae" secondAttribute="trailing" constant="10" id="sN1-P0-uEm"/>
+                <constraint firstItem="ciM-Ml-w1R" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="y0t-iz-uZ9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="235.5" y="117"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_chevronleft_n" width="40" height="40"/>
+        <image name="btn_comment(black)_n" width="40" height="40"/>
+        <image name="btn_like(black)_h" width="40" height="40"/>
+        <image name="btn_like(black)_n" width="40" height="40"/>
+        <image name="btn_person(black)_n" width="40" height="40"/>
+    </resources>
+</document>

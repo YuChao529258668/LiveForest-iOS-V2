@@ -1,0 +1,68 @@
+//
+//  LiveForest.pch
+//  LiveForest
+//
+//  Created by 余超 on 15/11/26.
+//  Copyright © 2015年 LiveForest. All rights reserved.
+//
+
+#ifndef LiveForest_pch
+#define LiveForest_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#import "UIView+Frame.h"
+//#import "NSURL+HSURL.h"
+//#import "NSObject+HSJson.h"
+//#import "Macros.h"
+//#import "UIBarButtonItem+HSUIBarButtonItem.h"
+//#import "UINavigationBar+HSAttributes.h"
+//#import "HSHttpRequestTool.h"
+
+// HSLog()
+#ifdef DEBUG // 处于开发阶段
+#define HSLog(...) NSLog(__VA_ARGS__)
+#else // 处于发布阶段
+#define HSLog(...)
+#endif
+
+// RGB颜色
+#define HSColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+// 随机色
+#define HSRandomColor HWColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+/* 屏幕宽度 */
+#define ScreenWidth                             [[UIScreen mainScreen] bounds].size.width
+/* 屏幕高度 */
+#define ScreenHeight                            [[UIScreen mainScreen] bounds].size.height
+
+#endif /* LiveForest_pch */
+
+
+#define REDPACKET_AVALABLE
+
+#ifdef __OBJC__
+#import "UIView+Frame.h"
+#import "NSURL+HSURL.h"
+#import "NSObject+HSJson.h"
+#import "Macros.h"
+#import "UIBarButtonItem+HSUIBarButtonItem.h"
+#import "UINavigationBar+HSAttributes.h"
+#import "HSHttpRequestTool.h"
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "ChatDemoUIDefine.h"
+#import "EMAlertView.h"
+#import "TTGlobalUICommon.h"
+
+#import "EMSDKFull.h"
+#import "EaseUI.h"
+
+#define DEMO_CALL 1
+
+#endif

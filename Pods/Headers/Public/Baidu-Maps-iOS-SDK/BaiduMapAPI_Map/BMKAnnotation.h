@@ -1,0 +1,1 @@
+../../../../Baidu-Maps-iOS-SDK/BaiduMapAPI_Map.framework/Headers/BMKAnnotation.h
