@@ -12,7 +12,12 @@
 
 其他设计图已经上传了。
 
-这是运行效果的视频：
+这是优酷的运行效果视频：
+
+http://v.youku.com/v_show/id_XMjc1OTc3NTAyNA==.html?spm=a2h3j.8428770.3416059.1
+
+或者从 github 下载视频：
+
 https://github.com/YuChao529258668/resource-for-readme.md/blob/master/LiveForest-iOS-V2/身动-演示.mov
 
 这是目录结构：
