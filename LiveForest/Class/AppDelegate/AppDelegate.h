@@ -14,7 +14,7 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-//当前窗口
+
 @property (strong, nonatomic) UIWindow *window;
 
 /// 用于第三方判断是否需要注册。新用户注册的时候设置为yes，默认是no，退出登录的时候设置为no
