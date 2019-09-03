@@ -10,10 +10,5 @@
 http://v.youku.com/v_show/id_XMjc1OTc3NTAyNA==.html?spm=a2h3j.8428770.3416059.1
 
 
-项目结构：
-
-![目录结构](https://github.com/YuChao529258668/resource-for-readme.md/blob/master/LiveForest-iOS-V2/项目结构.png)
-
-
 
 
